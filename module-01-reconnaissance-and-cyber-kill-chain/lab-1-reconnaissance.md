@@ -54,7 +54,7 @@ PORT      STATE  SERVICE
 9929/tcp  open   nping-echo
 ```
 
-The scan reveals services beyond the web server found through manual recon — nmap surfaces open ports (SSH, DNS, SIP, etc.) that HTTP fingerprinting alone would not have shown.
+The scan reveals services beyond the web server found through manual recon — nmap surfaces open ports (SSH, DNS, SIP, etc.) that HTTP fingerprinting alone would not have shown (nmap --open scanme.nmap.org).
 
 ---
 
